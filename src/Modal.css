@@ -1,0 +1,60 @@
+.modal {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+}
+
+.modal-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  max-width: 500px;
+  width: 100%;
+  margin: 0 auto;
+  max-height: 80%; /* Set max height for modal */
+  overflow-y: auto;
+}
+
+.heading {
+  font-size: 16px;
+  font-weight: 800;
+  word-spacing: 1px;
+}
+.submit-button,
+.close-button {
+  all: unset;
+  color: white;
+  background-color: blue;
+  border-radius: 8px;
+  padding: 8px 12px;
+}
+
+.btn-agree {
+  display: none;
+}
+.modal-button-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.undo-button,
+.redo-button {
+  position: static;
+}
+
+.undo-button {
+  background-color: green;
+}
+
+.redo-button {
+  background-color: red;
+}

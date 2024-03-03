@@ -1,0 +1,20 @@
+.App {
+  display: flex;
+  flex-direction: column;
+}
+
+.button-container {
+  position: relative;
+}
+
+button {
+  position: absolute;
+  left: 60%;
+}
+.container {
+  margin-top: 50px;
+}
+.choices {
+  display: flex;
+  gap: 10px;
+}
